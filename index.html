@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- 
+*****************************************************************************
+Title: Castic's Bicycles Index Page
+Use: To allow users to acquire information about the buisness.
+Author: Deston Castic
+School/Term: Southern Illinois University, Fall 2021
+Developed: Sep 9, 2021 
+Tested: Sep 9, 2021; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="MainStyleSheet.css">
+    <link rel="stylesheet" href="slicknav.css">
+    <link rel="shortcut icon" href="favicon.ico"> 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+<script src="jquery.slicknav.min.js"></script> 
+<script type="text/javascript"> 
+$(document).ready(function(){ 
+$ ( '#mobile_nav_menu'). slicknav( {prependTo: "#mobile_menu"}); 
+}) ; 
+</script>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Website for buisness Castic's Bicycles.">
+    <meta name="keywords" content="Bicycles">
+    <title>Castic's Bicycles Home</title>
+</head>
+<body>
+<h1 id="Shop Header">
+    Castic's Bicycles
+</h1>
+<audio autoplay loop>
+  <source  src="HomeAudio.mp3">
+</audio>
+<nav id="desktop_menu"></nav>
+<nav id="desktop_nav_menu"> 
+<ul> 
+    <li><a href="index.htm">Home</a></li> 
+    <li><a href="rentals.htm">Rentals</a></li>
+    <li><a href="sales.htm">Sales</a></li>
+    <li><a href="services.htm">Services</a></li>
+    <li><a href="contact.htm">Contact Us</a></li>
+</ul> 
+</nav>
+<nav id="mobile_menu"></nav> 
+<nav id="mobile_nav_menu"> 
+<ul> 
+    <li><a href="index.htm">Home</a></li> 
+    <li><a href="rentals.htm">Rentals</a></li>
+    <li><a href="sales.htm">Sales</a></li>
+    <li><a href="services.htm">Services</a></li>
+    <li><a href="contact.htm">Contact Us</a></li>
+</ul> 
+</nav>
+
+<figure>
+    <img src="HomeBike.jpg" alt="Bicycle against wall."
+    onmouseover="this.src='HoverBike.jpg';"
+    onmouseout="this,src='HomeBike.jpg';">
+    <figcaption>Hiland Road Bike 700C Racing Bicycle</figcaption>
+</figure>
+<!--
+    Buisness description
+-->
+<p>
+    At Castic's Bicycles we carry a small selection of what we believe are the best bikes money can buy and offer full bicycle repair and service.
+</p>
+<h2>
+    Our Bikes:
+</h2>
+<ul>
+    <li>Head JRA 275</li>
+    <li>Diamondback Metric 3</li>
+    <li>Raleigh Venture 2</li>
+    <li>Aventon Sinch</li>
+    <li>Cult Gateway</li>
+  </ul>
+<h3>
+    111 Tutor Drive 
+</h3>
+
+<h3>
+    Fairview Heights, Illinois
+</h3>
+<h3>
+    121-121-1212
+</h3>
+<a href="https://siu.edu/">SIUC</a>
+
+</body>
+</html>
